@@ -1,0 +1,9 @@
+{
+  "cpu": {
+    "fqbn": "arduino:avr:unowifi",
+    "name": "Arduino Uno WiFi",
+    "type": "serial"
+  },
+  "secrets": [],
+  "included_libs": []
+}
