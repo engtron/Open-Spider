@@ -32,8 +32,8 @@ SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 //define 12 servos for 4 legs
 Servo servo[4][3]; // define arai por 4 pernas de 3 motores
 //define servos' ports
-//const int servo_pin[4][3] = { {12, 11, 13}, {9, 8, 10}, {6, 5, 7}, {3, 2, 4 }  };
-const int servo_pin[4][3] = { {11, 12, 13}, {8, 9, 10}, {5, 6, 7}, {2, 3, 7}  };
+const int servo_pin[4][3] = { {11, 12, 13}, {8, 9, 10}, {5, 6, 7}, {2, 3, 4 }  }; // COM INSTALACAO NORMAL
+
 /*tamanho do robo ---------------------------------------------------------*/
 const float length_a = 55;
 const float length_b = 77.5;
