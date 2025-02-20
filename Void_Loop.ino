@@ -20,22 +20,22 @@ if (comando== 2) {
   step_back(5);
   delay(2000);
 }
-if (comando== 4) { 
+if (comando== 5) { 
   Serial.println("Turn left, Vire à esquerda");
   turn_left(5);
   delay(2000);
 }
-if (comando== 3) { 
+if (comando== 6) { 
   Serial.println("Turn right, Vire à direita");
   turn_right(5);
   delay(2000);
 }
-if (comando== 11) { 
+if (comando== 8) { 
   Serial.println("Hand wave, aceno de mão");
   hand_wave(3);
   delay(2000);
 }
-if (comando== 9) { 
+if (comando== 7) { 
   Serial.println("Hand wave, aceno de mão");
   hand_shake(3);
   delay(2000); 
